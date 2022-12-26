@@ -1,11 +1,13 @@
 # TP-Typescript
-                                                                 ¿Qué es TypeScript?
+                                                               
+                                                               
+                                          ¿Qué es TypeScript?
                                          
 TypeScript es un lenguaje de código abierto desarrollado por Microsoft. Se trata de un supraconjunto de JavaScript, 
 lo que significa que puede seguir aprovechando sus conocimientos actuales sobre JavaScript 
 y agregar determinadas características que antes no estaban disponibles.
 
-                                                               Sugerencias de escritura
+                                        Sugerencias de escritura
                                        
 La característica principal de TypeScript es su sistema de tipos. En TypeScript, puede identificar el tipo de datos de una variable
 o un parámetro mediante una sugerencia de tipo. Con las sugerencias de tipo, se describe la forma de un objeto, lo que proporciona 
