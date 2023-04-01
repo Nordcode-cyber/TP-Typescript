@@ -1,0 +1,7 @@
+JavaScript es un lenguaje de programación interpretado que se utiliza principalmente para la creación de sitios web interactivos. JavaScript tiene soporte incorporado para arrays y proporciona una variedad de métodos y funciones para trabajar con ellos. Los arrays en JavaScript son una colección de elementos de cualquier tipo de datos, como números, cadenas, objetos, etc. Pueden ser creados y manipulados fácilmente utilizando operaciones como push(), pop(), splice(), shift() y unshift().
+
+TypeScript, por otro lado, es un lenguaje de programación de código abierto que se basa en JavaScript y agrega capacidades de tipado estático al lenguaje. Esto significa que TypeScript permite a los desarrolladores especificar el tipo de datos que se espera en una variable, función o argumento. Además, TypeScript proporciona una serie de características adicionales para la programación orientada a objetos y la gestión de errores.
+
+En cuanto a los arrays, TypeScript ofrece todas las funcionalidades que se encuentran en JavaScript para trabajar con arrays. Sin embargo, TypeScript también proporciona una forma de especificar los tipos de datos en un array al definirlo, lo que ayuda a prevenir errores en tiempo de ejecución. Esto significa que los desarrolladores pueden escribir código más seguro y confiable al utilizar arrays en TypeScript.
+
+En resumen, la principal diferencia entre TypeScript y JavaScript en relación a los arrays es que TypeScript permite el tipado estático para los elementos de un array, lo que ayuda a prevenir errores en tiempo de ejecución.
