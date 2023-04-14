@@ -15,7 +15,7 @@
    console.log(ides);
    console.table(ides);
    ides.forEach( i => console.log(i.toUpperCase() ) );
-   // lo que scribas en script.js se borra al transpilar el archivo ts
+   // Atencion !! lo que scribas en script.js se borra al transpilar el archivo ts
     /*const arr:number[] = [1,2,3,4,5,'i',6,7,8,9]; 
      * Con Typescript hay que respetar el tipo de datos
      */
