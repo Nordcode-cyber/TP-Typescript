@@ -6,6 +6,24 @@
         return 1;
    }
   // error('Auxilio!');
+function forever(): never {
+    while (true) {
+        break; // Error .
+    }
+}
+
+enum Values {
+    A,
+    B
+}
+
+function choose(value: Values) {
+    switch (value) {
+        case Values.A: return "A";
+    }
+
+    let x: never = value;
+}
  
 
 
