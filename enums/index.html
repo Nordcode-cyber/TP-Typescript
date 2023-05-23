@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src = "script.js" ></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enums en Typescript</title>
+</head>
+<header>
+
+</header>
+<body>
+    <script src = "script.js" ></script>
+    <h1>Trabajando en Typescript con Enums</h1>
+    <h2>Trabajar con enums en TypeScript es muy similar a trabajar con ellos 
+        en otros lenguajes de programación. Los enums en TypeScript 
+        son una forma conveniente de definir un conjunto de valores 
+        constantes con nombres descriptivos, lo que hace que el código sea más fácil de entender y mantener.
+        Una vez que se ha definido un enum, se puede utilizar para declarar variables 
+        y asignarles uno de los valores del enum.
+          </h2>
+          <p>function obtenerTextoTamaño(tamaño: Tamaño): string {
+            switch (tamaño) {
+              case Tamaño.Pequeño:
+                return "S";
+              case Tamaño.Mediano:
+                return "M";
+              case Tamaño.Grande:
+                return "L";
+              case Tamaño.ExtraGrande:
+                return "XL";
+              default:
+                throw new Error("Tamaño inválido");
+            }
+          }
+          
+          let tamañoTexto: string = obtenerTextoTamaño(Tamaño.Grande);
+          console.log(tamañoTexto); // "L"
+          </p>
+    <h4>websites no reponsive</h4>
+<style>
+    p {
+        text-decoration:double;
+    
+        text-rendering: optimizeLegibility;
+        text-overflow:ellipsis;
+        color: rgb(80, 16, 16);
+        text-align: center;
+        
+        
+    }
+</style>    
+</body>
+<footer>
+
+</footer>    
+</html>
