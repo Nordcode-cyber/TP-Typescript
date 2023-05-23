@@ -10,10 +10,10 @@
     console.log({nombre});    
    
         // ` `    
-    const ambiente = (temperatura:string, humedad:string):String => {
-        return `${ temperatura } ${ humedad}`;
+    const ambiente = (temperatura:string, humedad:string, presion:string):String => {
+        return `${ temperatura } ${ humedad} ${presion}`;
         }
-    const clima = ambiente('55', '88');
+    const clima = ambiente('55', '88', '1021.11);
     console.log('temperatura y humedad es de: ',{clima});
     const modulo =(piso:string,pasillo:string,pared:string):String => {
         return `${piso} ${pasillo} ${pared} `;
