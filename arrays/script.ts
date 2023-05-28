@@ -3,6 +3,10 @@
     arr.push(10);
     console.log(arr);
     console.table(arr);
+    const arr1:string[] =['n','o','r','b','e','r','t','o'];
+    arr1.push(8);
+    console.log(arr1);
+    console.table(arr1);
     const lenguajes = ['C', 'C++','Java','Python','Javascript','Php','C#', 'Typescript', 'Kotlin'];
     console.log(lenguajes);
     console.table(lenguajes);
