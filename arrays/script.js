@@ -3,6 +3,9 @@
     arr.push(10);
     console.log(arr);
     console.table(arr);
+    var arr1 = ['n', 'o', 'r', 'b', 'e', 'r', 't', 'o'];
+    console.log(arr1);
+    console.table(arr1);
     var lenguajes = ['C', 'C++', 'Java', 'Python', 'Javascript', 'Php', 'C#', 'Typescript', 'Kotlin'];
     console.log(lenguajes);
     console.table(lenguajes);
@@ -15,7 +18,7 @@
     console.log(ides);
     console.table(ides);
     ides.forEach(function (i) { return console.log(i.toUpperCase()); });
-    // lo que scribas en script.js se borra al transpilar el archivo ts
+    // Atencion !! lo que scribas en script.js se borra al transpilar el archivo ts
     /*const arr:number[] = [1,2,3,4,5,'i',6,7,8,9];
      * Con Typescript hay que respetar el tipo de datos
      */
