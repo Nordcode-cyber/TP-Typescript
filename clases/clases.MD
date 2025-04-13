@@ -17,7 +17,7 @@ En la programacion Orientada a objetos la abstraccion es el proceso de ocultar l
 El especificador Public define miembros públicos, que son aquellos a los que se puede acceder por cualquier método desde fuera de la clase.
 El especificador Private sólo se puede acceder por métodos miembros de la misma clase.
 El especificador Protected se puede acceder por métodos miembro de la misma clase o de clases derivadas, así como por métodos de otras,
- clases que se encuentran en el mismo paquete.
+ clases que se encuentran en el mismo paquete y se acceda a la clase base con super(con las propiedades de la clase base).
 
                                   Herencia
 
