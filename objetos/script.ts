@@ -14,6 +14,16 @@
     }
     console.log({flash});
     console.table(flash);
+    let lenguajec:{anio:number,version:number,power:string[],derivado:string[]} ={
+        anio:1972,
+        version: 23,
+        power:['hardware','compiladores','infosec'],
+        derivado:['C++','Java','C#']
+
+    }
+    console.log({lenguajec});
+    console.table(lenguajec);
+
     let batman:{name1:string,edad:number,deztreza:string[],enemigos:string[]} ={
         name1:'Bruce Wayne',
         edad: 34,
@@ -55,6 +65,16 @@
         enemigos:['Black manta', 'lex luthor','celeana','rey tiburon'],
         aliados:['aqualad','aquagirl','murk','batman']
     }
+    let java:{anio:number,version:number,power:string[],estructura:string[],framework:string[]} ={
+        anio:1995,
+        version: 24,
+        power:['oop','funcional','apis '],
+        estructura:['vectores','pilas','colas'],
+        framework:['hibernate','swing','spring']     
+
+    }
+    console.log({java});
+    console.table(java);
     console.log({aquaman});
     console.table(aquaman);
     let spiderman:{nombre:string,edad:number,peso:number,deztreza:string[],enemigos:string[],aliados:string[],getNombre: () => string,getEdad: ()=>number } = {
