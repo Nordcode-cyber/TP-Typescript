@@ -43,7 +43,26 @@
     }
     console.table(AutosFord);
     console.log(AutosFord.Fiesta);
-    
+    enum Langc {
+      embebides,
+      hardware,
+      so,
+      compiladores,
+      shell,
+      games,
+      framework
+    }
+    let gcc:Langc=Langc.compiladores;
+    let arduino:Langc=Langc.embebides;
+    let x486:Langc=Langc.hardware;
+    let linux:Langc=Langc.so;
+    let git:Langc=Langc.shell;
+    let gtk:Langc=Langc.framework;
+    let dom:Langc=Langc.games;
+    console.table(Langc)
+    console.log(Langc.compiladores)
+    console.log(Langc.framework)
+    console.log(Langc.shell)
 
 
 
