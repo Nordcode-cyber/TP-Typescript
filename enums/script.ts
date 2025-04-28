@@ -63,10 +63,25 @@
     console.log(Langc.compiladores)
     console.log(Langc.framework)
     console.log(Langc.shell)
+    enum Langpy {
+      games,
+      web,
+      mobile,
+      desktop,
+      infosec,
+      inteart
+    }
+    let damnet:Langpy.games;
+    let django:Langpy.web;
+    let qpython:Langpy.mobile;
+    let pyqt:Langpy.desktop;
+    let blueye:Langpy.infosec;
+    let gemini:Langpy.inteart;
+    console.table(Langpy)
+    console.log(Langpy.desktop)
+    console.log(Langpy.mobile);
 
-
-
-    
+ 
       
 
 })()
