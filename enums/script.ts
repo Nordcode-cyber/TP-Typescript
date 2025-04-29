@@ -11,6 +11,7 @@
       let diaDeHoy: DiasDeLaSemana = DiasDeLaSemana.Martes;
       let maniana: DiasDeLaSemana = DiasDeLaSemana.Domingo;
       console.log(DiasDeLaSemana);
+      console.log(typeof DiasDeLaSemana);
       console.table(DiasDeLaSemana);
     console.log(diaDeHoy);//devuelve ubicacion 
     console.log(maniana);
@@ -32,6 +33,7 @@
     let mesAnterior: MesesDelAnio = MesesDelAnio.Abril;
     console.log(MesesDelAnio);
     console.table(MesesDelAnio);
+    console.log(typeof MesesDelAnio);
     console.log(mesActual);
     console.log(mesAnterior);
     enum AutosFord{
@@ -60,9 +62,11 @@
     let gtk:Langc=Langc.framework;
     let dom:Langc=Langc.games;
     console.table(Langc)
+    console.log(typeof Langc)
     console.log(Langc.compiladores)
     console.log(Langc.framework)
     console.log(Langc.shell)
+    console.log(typeof Langc.shell)
     enum Langpy {
       games,
       web,
@@ -78,10 +82,7 @@
     let blueye:Langpy.infosec;
     let gemini:Langpy.inteart;
     console.table(Langpy)
+    console.log(typeof Langpy)
     console.log(Langpy.desktop)
     console.log(Langpy.mobile);
-
- 
-      
-
 })()
