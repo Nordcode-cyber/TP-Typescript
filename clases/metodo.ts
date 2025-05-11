@@ -54,11 +54,52 @@
 
     }
     const linux: So = new So('gnu/linux','richard & Linus','project gnu',1991,'tar.gz','free software',true);
+    const windows:So = new So('windows','bill gates','microsoft',1985,'exe','propietario',false);
     //solo se puede acceder a las miembros publicos de las clases
     console.log({linux})
     console.table(linux);
     console.log(linux.tecnica())
     console.log(linux.name)
+    console.log({windows})
+    console.table(windows)
+    console.log(windows.tecnica())
+    console.log(windows.name)
+     class Framework {
+        public nam:string;
+        public lang:string;
+        public frontend:boolean;
+        public patron:string;
+        public licencia:string;
+        public creador:string;
+        public  lanz:number;
+        //patrones MVC MVP MVVM MVCP
+        constructor(nam:string,lang:string,frontend:boolean,patron:string,licencia:string,creador:string,lanz:number){
+            /*operador this* */
+            this.nam=nam;
+            this.lang=lang;
+            this.frontend=frontend;
+            this.patron=patron;
+            this.licencia=licencia;
+            this.creador=creador;
+            this.lanz=lanz;
+          
+        }
+        id(){
+            return `${this.nam} (${this.lang})(${this.licencia})`
+        }
+        datos(){
+            return `'nombre: '${this.nam} ('patron: '${this.patron})('es Frontend?: '${this.frontend})('lenguaje: '${this.lang})`
+        }
+
+     }
+    
+  const react = new Framework('React','Javascript',true,'MVC','BSD','Facebook',2012);
+  console.log({react})
+  console.table(react)
+  console.log(react.frontend)
+  console.log(react.licencia)
+  console.log(react.id())
+  console.log(react.datos())
   
     
 

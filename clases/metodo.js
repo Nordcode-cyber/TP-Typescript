@@ -41,9 +41,41 @@
         return So;
     }());
     var linux = new So('gnu/linux', 'richard & Linus', 'project gnu', 1991, 'tar.gz', 'free software', true);
+    var windows = new So('windows', 'bill gates', 'microsoft', 1985, 'exe', 'propietario', false);
     //solo se puede acceder a las miembros publicos de las clases
     console.log({ linux: linux });
     console.table(linux);
     console.log(linux.tecnica());
     console.log(linux.name);
+    console.log({ windows: windows });
+    console.table(windows);
+    console.log(windows.tecnica());
+    console.log(windows.name);
+    var Framework = /** @class */ (function () {
+        //patrones MVC MVP MVVM MVCP
+        function Framework(nam, lang, frontend, patron, licencia, creador, lanz) {
+            /*operador this* */
+            this.nam = nam;
+            this.lang = lang;
+            this.frontend = frontend;
+            this.patron = patron;
+            this.licencia = licencia;
+            this.creador = creador;
+            this.lanz = lanz;
+        }
+        Framework.prototype.id = function () {
+            return "".concat(this.nam, " (").concat(this.lang, ")(").concat(this.licencia, ")");
+        };
+        Framework.prototype.datos = function () {
+            return "'nombre: '".concat(this.nam, " ('patron: '").concat(this.patron, ")('es Frontend?: '").concat(this.frontend, ")('lenguaje: '").concat(this.lang, ")");
+        };
+        return Framework;
+    }());
+    var react = new Framework('React', 'Javascript', true, 'MVC', 'BSD', 'Facebook', 2012);
+    console.log({ react: react });
+    console.table(react);
+    console.log(react.frontend);
+    console.log(react.licencia);
+    console.log(react.id());
+    console.log(react.datos());
 })();
