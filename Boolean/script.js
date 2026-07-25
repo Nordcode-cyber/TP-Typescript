@@ -16,4 +16,7 @@
     isSegundo = true && false;
     console.log({ isCampeon: isCampeon });
     console.log({ isSegundo: isSegundo });
+    console.log(7 != 7);
+    console.log(3 < 5);
+    console.log(7 == 7);
 })(); //fin de la funcion

@@ -5,8 +5,8 @@
 
                                 Abstraccion
 
-En la programacion Orientada a objetos la abstraccion es el proceso de ocultar los detalles de la implementacion,
- al usuario y solo se mostrara la funcionalidad, es decir el usuario obtendra la informacion que el objeto,
+En la programación Orientada a objetos la abstracción es el proceso de ocultar los detalles de la implementación,
+ al usuario y solo se mostrara la funcionalidad, es decir el usuario obtendrá la información que el objeto,
   hace en lugar de como lo hace y en Java se hace implementando las clases abstractas e implementando interfaces.
 
                                Encapsulamiento
@@ -25,7 +25,7 @@ El especificador Protected se puede acceder por métodos miembro de la misma cla
 
                                 Polimorfismo
 
-Polimorfismo permite que diferentes objetos respondan de modo diferente al mismo mensaje. el polimorfismo adquiere su maxima potencia cuando se se utiliza en union con la herencia. el polimorfismo se establece con la ligadura, dinamica de métodos, con la ligadura dinamica no es preciso definir el tipo de objeto, hasta el momento de la ejecución.
+Polimorfismo permite que diferentes objetos respondan de modo diferente al mismo mensaje. el polimorfismo adquiere su máxima potencia cuando se se utiliza en unión con la herencia. el polimorfismo se establece con la ligadura, dinámica de métodos, con la ligadura dinámica no es preciso definir el tipo de objeto, hasta el momento de la ejecución.
 
 
 
